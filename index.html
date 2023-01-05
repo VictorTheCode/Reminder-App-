@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Reminder App</h1>
+
+    <form id="form">
+        <input type="text" placeholder="Enter your reminder" id="reminder">        
+        <select name="Select" id="select-input">
+            <option value="none">None</option>
+            <option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+            <option value="monthly">Monthly</option>
+        </select>
+
+        <div class="calender">
+            <input type="date" id="reminder-date">
+            <input type="time" id="reminder-time">
+        </div>
+        <button id="reminder-btn">Add Reminder</button>
+    </form>
+
+    <div class="reminder-div">
+        <ul id="reminder-list"></ul>
+    </div>
+
+    <button id="clear">Clear Data</button>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

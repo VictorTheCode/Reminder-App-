@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e7ecef;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    background-color: #e7ecef;
+    border: none;
+    outline: none;
+    padding: 6px 8px;
+    /* width: 300px; */
+    border: 1px solid #a3cef1;
+    font-size: 1.2rem;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    font-size: 1.1rem;
+}
+
+select {
+    border: 1px solid #a3cef1;
+    padding: 6px 6px;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+form input {
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 8px 8px;
+    background-color: #272c77;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.color-mode {
+    margin-top: 1.5rem;
+}
+
+#reminder-list {
+    margin-top: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+#reminder-list li {
+    list-style: none;
+}
+
+
+.reminder-div {
+    background-color: lightgrey;
+    display: flex;
+    padding: 13px 12px;
+    margin-top: 1.3rem;
+}
+
+.delete-button {
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+    background-color: #e2725b;
+}
+
+#clear {
+    margin-top: 2rem;
+    background-color: rgb(210, 0, 0);
+}
+
+#clear:hover {
+    background-color: rgb(190, 0, 0);
+}
